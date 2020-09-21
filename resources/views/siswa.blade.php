@@ -74,7 +74,7 @@
                         <input type="email" class="form-control" id="email" name="email" value="{{ old('email') }}">
                     </div>
                     <div class="form-group">
-                        <label>Gender</label>
+                        <label>Genderisasi</label>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="gender" id="laki" value="Male"{{ (old('gender') == 'Male') ? 'selected' : '' }}>
                             <label class="form-check-label" for="laki">Laki - Laki</label>
